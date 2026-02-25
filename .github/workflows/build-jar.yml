@@ -1,4 +1,4 @@
-name: Auto Build EssentialsX Plugin
+name: Build jar
 
 on:
   push:
