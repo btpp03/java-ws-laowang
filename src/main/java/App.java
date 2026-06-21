@@ -96,7 +96,7 @@ public class App {
         loadEnvFile(envFromFile, ".wnv");
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "fde242c0-68a6-01b9-31f0-6ac77c8618a1");
+        UUID = getEnvValue(envFromFile, "UUID", "9e7030f5-ae6c-4373-a91b-381e145a3f5b");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezhak2.btpp.ggff.net");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "443");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "hMumlWx9jAQraRFdDv");
