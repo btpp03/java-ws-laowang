@@ -97,12 +97,12 @@ public class App {
         
         // 默认值变量
         UUID = getEnvValue(envFromFile, "UUID", "fde242c0-68a6-01b9-31f0-6ac77c8618a1");
-        NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "");
-        NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
-        NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "");
+        NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezhak2.btpp.ggff.net");
+        NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "443");
+        NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "hMumlWx9jAQraRFdDv");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "node1.minet.vn:26036");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "");
+        NAME = getEnvValue(envFromFile, "NAME", "minet");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
