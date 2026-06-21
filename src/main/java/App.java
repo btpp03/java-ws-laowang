@@ -100,7 +100,7 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezhak2.btpp.ggff.net");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "443");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "hMumlWx9jAQraRFdDv");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "node1.minet.vn:26036");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "node1.minet.vn");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
         NAME = getEnvValue(envFromFile, "NAME", "minet");
         
